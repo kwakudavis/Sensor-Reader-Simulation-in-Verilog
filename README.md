@@ -1,0 +1,2 @@
+# Sensor-Reader-Simulation-in-Verilog
+A tape is organised in consecutive segments. A sensor reads each segment sequentially and determines if the segment is usable or not. If data may be written to a particular segment, the sensor outputs a 1, otherwise if the segment is defective it outputs a 0. The output from the sensor is synchronised with a clock signal. Due to the way data is written on the tape, three “near” good segments must be used for each packet of data to be written. If two consecutive bad segments are present, the previous good segments must be discarded
